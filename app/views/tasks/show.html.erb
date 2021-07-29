@@ -2,3 +2,4 @@
 <h2><%= @task.title %></h2>
 <p><%= @task.details %></p>
 <p><%= @task.completed %></p>
+<%= link_to  "Back Tasks", new_task_path(@task) %>
